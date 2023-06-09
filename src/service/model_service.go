@@ -67,7 +67,7 @@ func (s *ModelService) parseAd(ctx *context.XContext, simplePos *proto.SimplePos
 		adInfo := &context.AdInfo{
 			PosId:        simplePos.PosId,
 			AdId:         simpleAd.AdId,
-			BillingType:  1,
+			BillingType:  2,
 			EventType:    1,
 			SimpleAdInfo: simpleAd,
 		}
